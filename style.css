@@ -1,0 +1,141 @@
+.body {
+
+
+  background-color: #eeeeee;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+
+  height: 90%;
+  width: 70%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 70%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+.body2 {
+  height: 880px;
+  background-color: white;
+}
+
+.body3 {
+  height: 500px;
+  background-color: #eeeeee;
+}
+
+.p {
+  height: 200px;
+
+}
+
+.b {
+  background-color: #e0e0e0;
+}
+
+
+
+.topnav {
+  overflow: hidden;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid red;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid red;
+}
+
+.body4 {
+
+  background-color: #e0e0e0;
+
+}
+
+.m {
+
+  background: #f5f6f7;
+}
+
+.a {
+
+  background: #45c2f1;
+}
+
+.l {
+
+  background: #e4e4e4;
+}
+
+.contact {
+
+  background: #e4e4e4;
+
+}
+
+.a {
+  height: 400px;
+}
+
+.form2 {
+  height: 600px;
+  background: #e4e4e4;
+
+}
+
+.form3 {
+  background: red;
+}
+
+.footer {
+
+  background: #1f1f24;
+}
